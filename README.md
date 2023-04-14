@@ -1,0 +1,1 @@
+# YU-Capstone-Paradox-Detailing
