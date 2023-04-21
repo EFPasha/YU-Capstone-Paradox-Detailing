@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: system-ui;
+    background-color:black;
+    background-image: url(/CSS/Larry_Chen_Speedhunters_toy_drift_in_film-1-1200x798.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
