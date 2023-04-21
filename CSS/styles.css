@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: system-ui;
-    background-color:black;
+    background-color:white;
     background-image: url(/CSS/Larry_Chen_Speedhunters_toy_drift_in_film-1-1200x798.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,4 +40,8 @@ body {
     flex: 100%;
     max-width: 100%;
   }
+}
+
+.paradox p {
+  color: white;
 }
